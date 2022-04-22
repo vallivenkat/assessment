@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .flex-container { 
+            display: flex;
+       /* width:600px;*/
+            height:600px;
+        }
+
+        
+        .flex-innerContainer    {
+            display: flex;
+            flex-direction: column;
+            width:  800px;
+        
+        }
+        
+        
+        #greensection   {
+            background-color:   green;
+            flex-basis: 200px;
+            
+        }
+        #orangesection{
+            background-color: orange;
+            flex-basis: 200px;
+        }
+
+        #yellowsection  {
+            background-color: yellow;
+            flex-basis: 200px;
+        }
+
+        #redsection {
+            background-color: red;
+            flex-basis: 200px;
+        }
+        #bluesection{
+            background-color: blue;
+            flex-basis: 200px;
+        }
+        
+    </style>
+    
+</head>
+<body>
+
+         <div class="flex-container">
+
+             <div id="greensection">box1></div>
+             
+        
+
+            <div class="flex-innerContainer">
+                <div id="yellowsection">box2</div>
+                <div id="redsection">box3</div>
+                <div id="bluesection"></div>
+                <div id="orangesection"></div>
+        
+            </div>
+        </div>
+ </body>
+ </html>  

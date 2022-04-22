@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colmar academy</title>
+    <link rel="stylesheet href=css/reset.css">
+    <link rel="stylesheet" href="css/colmaracademystyle.css">
+    
+</head>
+<body>
+    <!--Header with logo and navigation-->
+    <header class="header-style image-opacity">
+        <div class="logo">
+            <img src="images/favicon-logo.ico">
+        </div>
+        <div>
+            <h1><span><strong>COLMAR</strong></span>ACADEMY</h1>
+        </div>
+    
+   <!---- <ul>
+        <li>On campus</li>
+        <li>online</li>
+        <li>companies</li>
+        <li>sign in</li>
+    </ul>-->
+
+    <nav class="desktop">
+        <a href="#">On Campus</a>
+        <a href="#">Online</a>
+        <a href="#">Companies</a>
+        <a href="#">Sign in</a>
+    </nav>
+
+
+   <!----<nav class="mobile">
+        <a href="images/favicon-logo.ico"></a>
+    </nav>-->
+    </header>
+
+<section class="main">
+<div>
+    <img src="images/banner.jpg">
+</div>
+<div class="rightcontent">
+ <h1>
+     Learn Something new everyday
+ </h1>
+ <p>Lore ipsum dolor sit amet, consectetur
+    adipiscing elit.
+</p>
+<input type="button"  value = "start here">
+</div>
+
+ </section>
+</body>
+</html>

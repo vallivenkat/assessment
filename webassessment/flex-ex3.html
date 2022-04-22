@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating 3 flexboxes</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .flex-container {
+            display: flex;  
+            height: 400px;
+            /* default flex-direction: row : flex-basis refers to the widths of flex items */
+        }
+
+        .flex-innerContainer {
+            display: flex;
+            flex-direction: column; /* flex-basis refers to the height */
+            width: 400px;         
+        }
+
+        #greenSection {
+            background-color: darkgreen;
+            flex-basis: 200px;  /* width of the greenSection */
+        }
+
+        #yellowSection {
+            background-color: yellow;
+            flex-basis: 200px;  /* */
+        }
+
+        #redSection {
+            background-color: red;
+            flex-basis: 200px; /* */
+        }
+    </style>
+</head>
+<body> 
+    <div class="flex-container">
+       
+        <div id="greenSection">Menu with menu item</div>
+
+        <div class="flex-innerContainer">
+            <div id="yellowSection"><h1>Content - Image Gallery</h1></div>
+            <div id="redSection">Content - Popular Products</div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+<body>
+    
+
+
+</body>
+</html>

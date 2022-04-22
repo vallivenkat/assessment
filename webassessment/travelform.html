@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="travel, oversea,aboard">
+    <meta name="description" content="this is a travel reservation form">
+    
+    <title>Travel reservation form</title>
+    <link rel="stylesheet" href="css/formstyle for travelform.css">
+
+  
+</head>
+
+<body>
+    <h1>Travel Reservation form</h1>
+
+
+ <form onsubmit="event.preventDefault()">
+
+    <p>
+        <label for ="fullname">FullName*:</label>
+        <input type="text" id="fullname" name="fullname" required>
+    </p>
+
+
+    <p>
+        <label for ="Email">Email*:</label>
+        <input type="Email" id="Email" name="Email" required>
+    </p>
+
+
+    <p> <label for ="Tourpackage">Select a tour package:</label>
+        <select id="tourpackage" name="tourpackage">
+            <option value="Please select from list">Please Select from List</option>
+            <option value="Japan">Japan</option>
+            <option value="Korea">Korea</option>
+            <option value="taiwan">taiwan</option>
+            <option value="Hongkong">Hongkong</option>
+        </select>
+    </p>
+   
+    <p>
+        <label for ="ArrivalDate">ArrivalDate*:</label>
+        <input type="date" id="ArrivalDate" name="ArrivalDate" required>
+    </p>
+
+    <p>
+        <label for ="numpax">Number of persons*</label>
+        <input type="number" id="numpax" name="numpax" min="1"  max="8" required>
+
+    </p>
+    
+
+    <p>
+         what would you like to experience during the tour?
+        <br>
+        (please select atleast one experience)
+        <br>
+        <input type="checkbox" id="chkboxfood" name="chkboxfood" value="Food">
+        <label for="chkboxfood">Food</label>
+        <br>
+
+        <input type="checkbox" id="chkboxculture" name="chkboxculture" value="culture">
+        <label for="chkboxculture">culture</label>
+        <br>
+        <input type="checkbox" id="chkboxsight" name="chkboxsight" value="culture">
+        <label for="chkboxsight">sightseeing</label>
+        <br>
+    </p>
+
+     <p>
+        <label for="discount">discount coupon code: </label>
+        <input type="text" id="discount" name="discount">
+        
+    </p>
+     <br>
+        
+     <p>
+            <label>I have read and agred to the terms and conditions</label>
+            <br>
+
+           
+            <input type="radio" id="rbtnagree" name="terms" value="agree">
+            <label for="rbtnagree">Agree</label>
+        
+            
+            <input type="radio" id="rbtndisagree" name="terms" value="agree">
+            <label for="rbtndisagree">disagree</label>
+    </p>
+            <p>
+                 <button type="submit">Complete Reservation</button>
+            </p>
+
+    
+ </form>
+    
+</body>
+
+</html>
